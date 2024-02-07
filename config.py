@@ -1,6 +1,6 @@
 # API
-CLIENT_ID = 'orbenk'
-CLIENT_SECRET = '4e9fa51b10049d334d9c462eac26705ddbf177b5'
-AUTHORIZATION = 'Basic b3JiZW5rOjRlOWZhNTFiMTAwNDlkMzM0ZDljNDYyZWFjMjY3MDVkZGJmMTc3YjU'
+CLIENT_ID = 'your_id'
+CLIENT_SECRET = 'your_client_secret'
+AUTHORIZATION = 'your_authorization_code'
 
 # DB
