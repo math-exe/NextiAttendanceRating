@@ -1,5 +1,5 @@
 import requests
-from config import CLIENT_ID, CLIENT_SECRET
+from config import CLIENT_ID, CLIENT_SECRET, AUTHORIZATION
 
 def getAcessToken():
 
@@ -15,7 +15,7 @@ def getAcessToken():
     # Cabeçalhos da solicitação
     headers = {
         "Content-Type": "application/json",
-        "Authorization": "Basic b3JiZW5rOjRlOWZhNTFiMTAwNDlkMzM0ZDljNDYyZWFjMjY3MDVkZGJmMTc3YjU="
+        "Authorization": AUTHORIZATION
     }
 
     try:
