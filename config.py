@@ -1,6 +1,10 @@
 # API
-CLIENT_ID = 'your_id'
-CLIENT_SECRET = 'your_client_secret'
-AUTHORIZATION = 'your_authorization_code'
+CLIENT_ID = 'your_clientId'
+CLIENT_SECRET = 'your_clientSecret'
+AUTHORIZATION = 'your_authorizationCode'
 
 # DB
+SERVER = 'your_ip_server'
+DATABASE = 'your_database_name'
+USERNAME = 'your_username_db'
+PASSWORD = 'your_password_db'

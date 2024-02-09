@@ -1,6 +1,7 @@
 import api_requests
 import date_handler
 import spreadsheet_handler
+import database
 
 # Retorna o token de acesso para a conexão com a API
 access_token = api_requests.getAcessToken()
@@ -24,3 +25,9 @@ else:
 
 # Realiza as alterações excluido informações inúteis no xls
 modified_data = spreadsheet_handler.process_spreadsheet('output.xls')
+
+# Insere os dados no banco de dados
+database.insert_into_database(modified_data)
+
+# Apaga o arquivo temporário
+spreadsheet_handler.delete_file('output.xls')
